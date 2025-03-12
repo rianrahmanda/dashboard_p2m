@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard P2M Polsri</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <h2>P2M Polsri</h2>
+            <nav>
+                <ul>
+                    <li><a href="#agenda">Agenda Kegiatan</a></li>
+                    <li><a href="#akreditasi">Daftar Akreditasi</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Agenda Section -->
+            <section id="agenda">
+                <h1>Agenda Kegiatan</h1>
+                <div class="table-container">
+                    <table class="agenda-table">
+                        <thead>
+                            <tr>
+                                <th>No</th>
+                                <th>Nama Kegiatan</th>
+                                <th>Tanggal</th>
+                                <th>Waktu</th>
+                                <th>Lokasi</th>
+                                <th>Keterangan</th>
+                            </tr>
+                        </thead>
+                        <tbody id="agendaTable">
+                            <!-- Data akan diisi oleh JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Akreditasi Section -->
+            <section id="akreditasi">
+                <h1>Daftar Akreditasi Prodi</h1>
+                <div class="table-container">
+                    <table class="akreditasi-table">
+                        <thead>
+                            <tr>
+                                <th>Program Studi</th>
+                                <th>Nomor SK</th>
+                                <th>Masa Berlaku</th>
+                                <th>Sisa Masa Berlaku</th>
+                                <th>Cakupan</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="akreditasiTable">
+                            <!-- Data akan diisi oleh JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
